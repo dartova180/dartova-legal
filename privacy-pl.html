@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polityka Prywatności - dartova</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            padding: 40px;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 20px;
+        }
+        
+        .logo {
+            font-size: 48px;
+            font-weight: 700;
+            color: #667eea;
+            margin-bottom: 10px;
+            font-family: 'League Spartan', sans-serif;
+        }
+        
+        h1 {
+            color: #667eea;
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+        
+        .last-updated {
+            color: #666;
+            font-size: 14px;
+            font-style: italic;
+        }
+        
+        h2 {
+            color: #764ba2;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-size: 24px;
+        }
+        
+        h3 {
+            color: #667eea;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+        
+        p, li {
+            margin-bottom: 12px;
+            color: #444;
+        }
+        
+        ul {
+            margin-left: 25px;
+            margin-bottom: 15px;
+        }
+        
+        .highlight {
+            background: #f0f4ff;
+            padding: 20px;
+            border-left: 4px solid #667eea;
+            border-radius: 4px;
+            margin: 20px 0;
+        }
+        
+        .contact {
+            background: #764ba2;
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 40px;
+            text-align: center;
+        }
+        
+        .contact a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            border-bottom: 2px solid white;
+        }
+        
+        .lang-switcher {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .lang-switcher a {
+            color: #667eea;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: 600;
+        }
+        
+        .gdpr-rights {
+            background: #e8f5e9;
+            border-left: 4px solid #4caf50;
+            padding: 20px;
+            border-radius: 4px;
+            margin: 20px 0;
+        }
+        
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+            }
+            
+            h1 {
+                font-size: 24px;
+            }
+            
+            h2 {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="lang-switcher">
+            <a href="privacy-en.html">🇬🇧 English</a> | 
+            <a href="privacy-pl.html">🇵🇱 Polski</a>
+        </div>
+        
+        <div class="header">
+            <div class="logo">dartova.</div>
+            <h1>Polityka Prywatności</h1>
+            <p class="last-updated">Ostatnia aktualizacja: 11 lutego 2025</p>
+        </div>
+
+        <h2>1. Wprowadzenie</h2>
+        <p>dartova ("my", "nasz" lub "nas") zobowiązuje się do ochrony Twojej prywatności. Niniejsza Polityka Prywatności wyjaśnia, w jaki sposób gromadzimy, używamy, ujawniamy i chronimy Twoje informacje podczas korzystania z naszej aplikacji mobilnej.</p>
+        <p>Niniejsza polityka jest zgodna z Ogólnym Rozporządzeniem o Ochronie Danych (RODO) i innymi obowiązującymi przepisami o ochronie danych.</p>
+
+        <h2>2. Informacje Które Zbieramy</h2>
+
+        <h3>2.1 Informacje o Koncie</h3>
+        <p>Podczas tworzenia konta zbieramy:</p>
+        <ul>
+            <li><strong>Adres email</strong> (do uwierzytelniania)</li>
+            <li><strong>Nazwę użytkownika</strong> (wybraną przez Ciebie)</li>
+            <li><strong>ID użytkownika Firebase</strong> (automatycznie generowany unikalny identyfikator)</li>
+            <li><strong>Dostawcę uwierzytelniania</strong> (Google, Apple lub Email)</li>
+        </ul>
+
+        <h3>2.2 Dane z Gier</h3>
+        <p>Zbieramy i przechowujemy:</p>
+        <ul>
+            <li>Wyniki gier i punkty</li>
+            <li>Dane sesji treningowych</li>
+            <li>Rekordy osobiste i statystyki</li>
+            <li>Preferencje gry i ustawienia</li>
+            <li>Data i godzina rozegranych gier</li>
+        </ul>
+
+        <h3>2.3 Dane Subskrypcji (Użytkownicy PRO)</h3>
+        <p>Dla użytkowników z subskrypcją PRO:</p>
+        <ul>
+            <li>Status subskrypcji (aktywna/nieaktywna)</li>
+            <li>Typ planu (miesięczny/roczny)</li>
+            <li>Daty rozpoczęcia i wygaśnięcia subskrypcji</li>
+            <li>Historia zakupów (zarządzana przez RevenueCat i Google Play/App Store)</li>
+        </ul>
+
+        <h3>2.4 Dane Techniczne</h3>
+        <ul>
+            <li>Typ i model urządzenia</li>
+            <li>Wersja systemu operacyjnego</li>
+            <li>Wersja aplikacji</li>
+            <li>Raporty o awariach i logi błędów (w przypadku awarii aplikacji)</li>
+        </ul>
+
+        <h3>2.5 Dane Których NIE Zbieramy</h3>
+        <div class="highlight">
+            <p><strong>NIE zbieramy:</strong></p>
+            <ul>
+                <li>Twojej dokładnej lokalizacji</li>
+                <li>Zdjęć ani dostępu do kamery</li>
+                <li>Kontaktów ani informacji telefonicznych</li>
+                <li>Mikrofonu ani nagrań audio</li>
+                <li>Danych karty płatniczej (obsługiwane przez Google Play/App Store)</li>
+            </ul>
+        </div>
+
+        <h2>3. Jak Wykorzystujemy Twoje Informacje</h2>
+        <p>Używamy Twoich informacji do:</p>
+        <ul>
+            <li><strong>Świadczenia Usługi:</strong> Umożliwienia funkcjonalności gry, zapisywania postępów i synchronizacji danych</li>
+            <li><strong>Uwierzytelniania:</strong> Weryfikacji Twojej tożsamości i zarządzania kontem</li>
+            <li><strong>Zarządzania Subskrypcją:</strong> Przetwarzania płatności i zarządzania funkcjami PRO</li>
+            <li><strong>Ulepszania Aplikacji:</strong> Analizowania wzorców użytkowania i naprawiania błędów</li>
+            <li><strong>Obsługi Klienta:</strong> Odpowiadania na Twoje zapytania i udzielania pomocy</li>
+            <li><strong>Zgodności Prawnej:</strong> Przestrzegania zobowiązań prawnych i zapobiegania oszustwom</li>
+        </ul>
+
+        <h2>4. Udostępnianie Danych i Strony Trzecie</h2>
+        <p>Udostępniamy ograniczone dane następującym usługom stron trzecich:</p>
+
+        <h3>4.1 Firebase (Google)</h3>
+        <ul>
+            <li><strong>Cel:</strong> Uwierzytelnianie, baza danych i analityka aplikacji</li>
+            <li><strong>Udostępniane dane:</strong> Email, ID użytkownika, dane z gier</li>
+            <li><strong>Polityka Prywatności:</strong> <a href="https://firebase.google.com/support/privacy" style="color: #667eea;">Firebase Privacy</a></li>
+        </ul>
+
+        <h3>4.2 RevenueCat</h3>
+        <ul>
+            <li><strong>Cel:</strong> Zarządzanie subskrypcjami i walidacja płatności</li>
+            <li><strong>Udostępniane dane:</strong> ID użytkownika, status subskrypcji, dane zakupów</li>
+            <li><strong>Polityka Prywatności:</strong> <a href="https://www.revenuecat.com/privacy" style="color: #667eea;">RevenueCat Privacy</a></li>
+        </ul>
+
+        <h3>4.3 Sklep Google Play / Apple App Store</h3>
+        <ul>
+            <li><strong>Cel:</strong> Przetwarzanie płatności i zarządzanie subskrypcjami (wymagane)</li>
+            <li><strong>Udostępniane dane:</strong> Informacje o zakupach, status subskrypcji</li>
+            <li><strong>Prywatność:</strong> Zarządzane bezpośrednio przez Google/Apple</li>
+        </ul>
+
+        <div class="highlight">
+            <p><strong>Ważne:</strong> Nigdy nie sprzedajemy Twoich danych osobowych stronom trzecim. Dane są udostępniane wyłącznie niezbędnym dostawcom usług, aby aplikacja mogła funkcjonować.</p>
+        </div>
+
+        <h2>5. Twoje Prawa Zgodnie z RODO</h2>
+        <div class="gdpr-rights">
+            <h3>Masz następujące prawa:</h3>
+            <ul>
+                <li><strong>Prawo Dostępu:</strong> Możesz poprosić o kopię swoich danych osobowych</li>
+                <li><strong>Prawo do Sprostowania:</strong> Możesz poprawić niedokładne dane</li>
+                <li><strong>Prawo do Usunięcia:</strong> Możesz poprosić o usunięcie swojego konta i danych</li>
+                <li><strong>Prawo do Przenoszenia Danych:</strong> Możesz otrzymać swoje dane w ustrukturyzowanym formacie</li>
+                <li><strong>Prawo do Sprzeciwu:</strong> Możesz sprzeciwić się przetwarzaniu swoich danych</li>
+                <li><strong>Prawo do Wycofania Zgody:</strong> Możesz w dowolnym momencie wycofać zgodę</li>
+            </ul>
+            <p style="margin-top: 15px;">Aby skorzystać z któregokolwiek z tych praw, skontaktuj się z nami: <strong>dartova180@gmail.com</strong></p>
+        </div>
+
+        <h2>6. Przechowywanie i Bezpieczeństwo Danych</h2>
+        <h3>6.1 Gdzie Przechowujemy Dane</h3>
+        <ul>
+            <li><strong>Firebase Firestore:</strong> Profile użytkowników, dane z gier, statystyki</li>
+            <li><strong>Pamięć Urządzenia:</strong> Tymczasowy cache i lokalne preferencje</li>
+            <li><strong>RevenueCat:</strong> Informacje o subskrypcji</li>
+        </ul>
+
+        <h3>6.2 Jak Chronimy Dane</h3>
+        <ul>
+            <li>Szyfrowane połączenia (HTTPS/TLS)</li>
+            <li>Reguły bezpieczeństwa Firebase zapobiegające nieautoryzowanemu dostępowi</li>
+            <li>Bezpieczne protokoły uwierzytelniania</li>
+            <li>Regularne aktualizacje bezpieczeństwa</li>
+        </ul>
+
+        <h3>6.3 Okres Przechowywania Danych</h3>
+        <ul>
+            <li><strong>Aktywne konta:</strong> Dane przechowywane na czas nieokreślony, dopóki konto jest aktywne</li>
+            <li><strong>Po usunięciu konta:</strong> Dane trwale usuwane w ciągu 30 dni</li>
+            <li><strong>Dane subskrypcji:</strong> Przechowywane zgodnie z wymogami prawa podatkowego (zazwyczaj 5-7 lat)</li>
+            <li><strong>Logi awarii:</strong> Usuwane po 90 dniach</li>
+        </ul>
+
+        <h2>7. Prywatność Dzieci</h2>
+        <p>Nasza aplikacja nie jest przeznaczona dla dzieci poniżej 13 roku życia (lub poniżej 16 lat w UE). Świadomie nie zbieramy danych osobowych od dzieci. Jeśli uważasz, że dziecko przekazało nam dane osobowe, skontaktuj się z nami natychmiast.</p>
+
+        <h2>8. Międzynarodowe Transfery Danych</h2>
+        <p>Twoje dane mogą być przetwarzane w krajach poza Twoim miejscem zamieszkania, w tym w Stanach Zjednoczonych (gdzie znajdują się serwery Firebase i RevenueCat). Zapewniamy odpowiednie zabezpieczenia zgodnie z wymogami RODO.</p>
+
+        <h2>9. Pliki Cookie i Śledzenie</h2>
+        <p>Aplikacja używa minimalnego śledzenia:</p>
+        <ul>
+            <li><strong>Tokeny uwierzytelniania:</strong> Aby utrzymać Cię zalogowanym</li>
+            <li><strong>Lokalne preferencje:</strong> Aby zapamiętać Twoje ustawienia</li>
+            <li><strong>Brak cookies reklamowych:</strong> Nie śledzimy Cię w celach reklamowych</li>
+        </ul>
+
+        <h2>10. Zmiany w Polityce Prywatności</h2>
+        <p>Możemy od czasu do czasu aktualizować tę Politykę Prywatności. Powiadomimy Cię o istotnych zmianach poprzez:</p>
+        <ul>
+            <li>Powiadomienie w aplikacji</li>
+            <li>Powiadomienie email</li>
+            <li>Zaktualizowaną datę na górze tej polityki</li>
+        </ul>
+        <p>Kontynuacja korzystania z Aplikacji po wprowadzeniu zmian oznacza akceptację zaktualizowanej polityki.</p>
+
+        <h2>11. Zarządzanie Subskrypcją</h2>
+        <div class="highlight">
+            <p><strong>Aby anulować subskrypcję PRO:</strong></p>
+            <ul>
+                <li><strong>Android:</strong> <a href="https://play.google.com/store/account/subscriptions?package=com.dartova.app" style="color: #667eea;">Zarządzaj Subskrypcjami</a></li>
+                <li><strong>iOS:</strong> Ustawienia → [Twoje Imię] → Subskrypcje → dartova</li>
+                <li><strong>W Aplikacji:</strong> Ustawienia → Zarządzaj Subskrypcją</li>
+            </ul>
+        </div>
+
+        <h2>12. Kontakt</h2>
+        <div class="contact">
+            <p>Jeśli masz pytania dotyczące Polityki Prywatności lub chcesz skorzystać ze swoich praw:</p>
+            <p><strong>Email:</strong> <a href="mailto:dartova180@gmail.com">dartova180@gmail.com</a></p>
+            <p><strong>Zapytania o Ochronę Danych:</strong> dartova180@gmail.com</p>
+            <p><strong>Czas Odpowiedzi:</strong> Staramy się odpowiadać w ciągu 7 dni roboczych</p>
+        </div>
+
+        <h2>13. Organ Nadzorczy</h2>
+        <p>Jeśli mieszkasz w UE/EOG i masz obawy dotyczące sposobu, w jaki obsługujemy Twoje dane, masz prawo złożyć skargę do lokalnego organu ochrony danych.</p>
+        <p>W Polsce jest to: <strong>Urząd Ochrony Danych Osobowych (UODO)</strong></p>
+
+        <div style="margin-top: 40px; padding-top: 20px; border-top: 1px solid #ddd; text-align: center; color: #666;">
+            <p>© 2025 dartova. Wszelkie prawa zastrzeżone.</p>
+            <p style="margin-top: 10px;">
+                <a href="privacy-pl.html" style="color: #667eea; margin: 0 10px;">Polityka Prywatności</a> | 
+                <a href="terms-pl.html" style="color: #667eea; margin: 0 10px;">Regulamin</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
