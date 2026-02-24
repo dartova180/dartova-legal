@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>dartova. – Legal & Support</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --grad-start: #4a7fd4;
+      --grad-mid: #6a5dc8;
+      --grad-end: #9b59d0;
+      --bg: #0e0c18;
+      --surface: rgba(255,255,255,0.07);
+      --surface-hover: rgba(255,255,255,0.12);
+      --border: rgba(255,255,255,0.12);
+      --border-hover: rgba(255,255,255,0.35);
+      --text: #ffffff;
+      --muted: rgba(255,255,255,0.55);
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Nunito', sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0 24px 80px;
+      overflow-x: hidden;
+    }
+
+    .hero {
+      width: 100%;
+      background: linear-gradient(135deg, var(--grad-start) 0%, var(--grad-mid) 50%, var(--grad-end) 100%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 64px 24px 56px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero::before {
+      content: '';
+      position: absolute;
+      width: 500px; height: 500px;
+      border-radius: 50%;
+      background: rgba(255,255,255,0.06);
+      top: -200px; right: -100px;
+      pointer-events: none;
+    }
+
+    .hero::after {
+      content: '';
+      position: absolute;
+      width: 300px; height: 300px;
+      border-radius: 50%;
+      background: rgba(255,255,255,0.05);
+      bottom: -120px; left: -60px;
+      pointer-events: none;
+    }
+
+    .logo {
+      font-size: 3rem;
+      font-weight: 800;
+      color: #fff;
+      letter-spacing: -0.03em;
+      position: relative;
+      z-index: 1;
+    }
+
+    .tagline {
+      margin-top: 8px;
+      color: rgba(255,255,255,0.75);
+      font-size: 0.85rem;
+      font-weight: 600;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      position: relative;
+      z-index: 1;
+    }
+
+    .content {
+      width: 100%;
+      max-width: 560px;
+      margin-top: 48px;
+    }
+
+    .section-title {
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 14px;
+    }
+
+    .card-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin-bottom: 40px;
+    }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 20px 18px;
+      text-decoration: none;
+      color: var(--text);
+      transition: background 0.2s, border-color 0.2s, transform 0.15s;
+      display: block;
+    }
+
+    .card:hover {
+      background: var(--surface-hover);
+      border-color: var(--border-hover);
+      transform: translateY(-2px);
+    }
+
+    .card-label {
+      font-size: 0.68rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 5px;
+    }
+
+    .card-title {
+      font-size: 0.95rem;
+      font-weight: 700;
+    }
+
+    .support-box {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 28px 24px;
+      margin-bottom: 40px;
+    }
+
+    .support-box p {
+      color: var(--muted);
+      font-size: 0.9rem;
+      line-height: 1.7;
+      margin-bottom: 20px;
+    }
+
+    .support-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: linear-gradient(135deg, var(--grad-start), var(--grad-end));
+      color: #fff;
+      font-family: 'Nunito', sans-serif;
+      font-weight: 700;
+      font-size: 0.9rem;
+      padding: 12px 22px;
+      border-radius: 10px;
+      text-decoration: none;
+      transition: opacity 0.2s, transform 0.15s;
+      box-shadow: 0 4px 20px rgba(106, 93, 200, 0.4);
+    }
+
+    .support-btn:hover { opacity: 0.9; transform: translateY(-1px); }
+
+    footer {
+      color: var(--muted);
+      font-size: 0.78rem;
+      text-align: center;
+      padding-top: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="hero">
+    <div class="logo">dartova.</div>
+    <div class="tagline">Legal &amp; Support</div>
+  </div>
+
+  <div class="content">
+
+    <div class="section-title">Legal Documents</div>
+    <div class="card-grid">
+      <a class="card" href="privacy-en.html">
+        <div class="card-label">English</div>
+        <div class="card-title">Privacy Policy</div>
+      </a>
+      <a class="card" href="privacy-pl.html">
+        <div class="card-label">Polski</div>
+        <div class="card-title">Polityka Prywatności</div>
+      </a>
+      <a class="card" href="terms-en.html">
+        <div class="card-label">English</div>
+        <div class="card-title">Terms of Use</div>
+      </a>
+      <a class="card" href="terms-pl.html">
+        <div class="card-label">Polski</div>
+        <div class="card-title">Warunki Użytkowania</div>
+      </a>
+      <a class="card" href="delete-account.html">
+        <div class="card-label">Account</div>
+        <div class="card-title">Delete Account</div>
+      </a>
+    </div>
+
+    <div class="section-title">Support</div>
+    <div class="support-box">
+      <p>Have a question or need help with dartova.? We're happy to assist. Send us an email and we'll get back to you as soon as possible.</p>
+      <a class="support-btn" href="mailto:dartova180@gmail.com">✉ dartova180@gmail.com</a>
+    </div>
+
+    <footer>
+      &copy; 2026 dartova. · Tomasz Bogoński
+    </footer>
+
+  </div>
+
+</body>
+</html>
